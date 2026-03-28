@@ -7,51 +7,52 @@
 
 header {
     background-image: linear-gradient(to bottom, #1A29EB, #363FC2);
-    min-height: 100px;
+    height: 50px;
 }
 
-header > h1 {
-    text-align: center;
+h1.home {
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-left: 90px;
 }
 
-nav > a {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav > a:hover {
-    background-color: #0E157C;
-    padding-top: 4px;
-    padding-bottom: 1px;
-    border-radius: 3px;
-}
-
-.imagem {
-    background-image: url("/imagem/perfil-2.png");
+.perfil{
+    background: url('../imagem/perfil-hd-01.png');
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
-    box-shadow: inset 3px 3px 13px black;
-    height: 400px;
+    background-color: yellow;
+    box-shadow: inset 2px 2px 20px 2px black;
+    background-position: left center;
+    margin: auto;
+    height: 670px;
+    width: 1920px;
 }
 
-.imagem > h1 {
-    text-shadow: 3px 3px 4px black;
+.apresentacao {
+    width: 900px;
+    display: block;
+    position: relative;
+    left: 700px;
+    top: 150px;
+}
+
+.apresentacao > h1 {
     color: white;
-    text-align: center;
     font-size: 3em;
+    text-shadow: 2px 2px 1px  black;
 }
 
-.imagem > p {
-    text-shadow: 3px 3px 4px black;
+.apresentacao > h2 {
+    color: rgb(33, 188, 188);
+    padding: 20px 0px 20px;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 1px  black;
+}
+
+.apresentacao > p {
     color: white;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 1px  black;
 }
 
 .sobremim > h1 { 
