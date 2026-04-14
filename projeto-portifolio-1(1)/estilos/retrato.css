@@ -7,9 +7,11 @@ section {
 }
 
 div#perfil {
-    background-color: rgb(255, 255, 255);
+    background-color: #2402328a;
+    border-radius: 10px;
+    padding: 4px;
     margin: auto;
-    width: 280px;
+    width: 265px;
     position: absolute;
     top: 26%;
     left: 45%;
@@ -17,14 +19,16 @@ div#perfil {
 }
 
 div#perfil > h1 {
+    font-family: var(--fonte3);
+    font-size: 1.5em;
     font-weight: normal;
-    font-size: 1.6em;
 }
 
 div#perfil > h2 {
-    font-size: 1.9em;
+    font-family: var(--fonte2);
+    font-size: 1.4em;
 }
 
 div#perfil > p {
-    font-size: 1em;
+    font-family: var(--fonte3);
 }

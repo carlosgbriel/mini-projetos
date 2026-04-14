@@ -7,11 +7,31 @@ section {
 }
 
 div#perfil {
-    background-color: rgb(255, 255, 255);
+    background-color: #2402328a;
+    border-radius: 20px;
+    padding: 10px;
     margin: auto;
-    width: 500px;
+    width: 600px;
     position: absolute;
     top: 23%;
     left: 35%;
     transform: translate();
+}
+
+div#perfil > h1 {
+    font-family: var(--fonte3);
+    font-size: 2.5em;
+    letter-spacing: 3px;
+}
+
+div#perfil > h2 {
+    font-family: var(--fonte2);
+    font-size: 3em;
+
+}
+
+div#perfil > p {
+    font-family: var(--fonte3);
+    font-size: 1.3em;
+    letter-spacing: 2px;
 }
