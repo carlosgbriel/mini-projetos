@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+section {
+    background-color: aqua;
+    background-image: url('../imagens/banner-allscreen.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+div#perfil {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate();
+}
+
+div#perfil > h1 {
+    font-size: 2.5em;
+}
+
+div#perfil > h2 {
+    font-size: 3.5em;
+}
+
+div#perfil > p {
+    font-size: 1.2em;
+}

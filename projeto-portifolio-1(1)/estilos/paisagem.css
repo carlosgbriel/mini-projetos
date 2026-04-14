@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Versão para modo paisagem */
+
+section {
+    background-image: url('../imagens/banner-allscreen.png');
+}
+
+div#perfil {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 500px;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    transform: translate();
+}

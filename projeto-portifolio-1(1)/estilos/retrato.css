@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Versão para modo retrato */
+
+section {
+    background-image: url('../imagens/banner-phone.png');
+}
+
+div#perfil {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 280px;
+    position: absolute;
+    top: 26%;
+    left: 45%;
+    transform: translate();
+}
+
+div#perfil > h1 {
+    font-weight: normal;
+    font-size: 1.6em;
+}
+
+div#perfil > h2 {
+    font-size: 1.9em;
+}
+
+div#perfil > p {
+    font-size: 1em;
+}
